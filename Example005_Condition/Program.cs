@@ -1,7 +1,6 @@
-﻿using Internal;
-using System;
+﻿using System;
 Console.Write("Введите имя пользователя: ");
-string userName = Console.Redline();
+string userName = Console.RedLine();;
 
 if(userName.ToLower() == "маша")
 {
